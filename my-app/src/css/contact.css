@@ -1,0 +1,129 @@
+.contact-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-info {
+    margin-bottom: 30px;
+    border-right: 1px solid #969696;
+    padding-right: 20px;
+  }
+  
+  .info-item {
+    margin-bottom: 58px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #969696;
+  }
+  
+  .contact-info h4 {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form div {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #333;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+
+  .info-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .info-item h4 {
+    margin-bottom: 14px;
+    font-size: 1.2rem;
+  }
+  
+  .info-item p {
+    margin: 0;
+  }
+
+
+  .faq-section {
+    margin-top: 90px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .faq-content {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  td {
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .faq-question {
+    cursor: pointer;
+    background-color: #f6f6f6;
+    border: 1px solid #787878;
+  }
+  
+  .faq-question:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .faq-arrow {
+    text-align: right;
+  }
+  
+  .faq-answer {
+    background-color: #fff;
+    border: 1px solid #787878;
+  }

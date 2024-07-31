@@ -1,0 +1,89 @@
+.profile-container {
+    display: flex;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .profile-sidebar {
+    width: 25%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .profile-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-sidebar ul li {
+    padding: 25px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #151414;
+  }
+  
+  .profile-sidebar ul li:hover,
+  .profile-sidebar ul li.active {
+    background-color: #1c1b1b;
+    font-weight: bold;
+  }
+  
+  .profile-content {
+    width: 75%;
+    padding: 20px;
+    background-color: #0e0e0e;
+    border-radius: 8px;
+    margin-left: 20px;
+  }
+  
+  .password-change-section .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .password-change-section label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .password-change-section input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .error-msg {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .success-msg {
+    color: rgb(148, 255, 155);
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #05070f;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1c1c1c;
+  }
+
+  .form-group .text-profil{
+    color: black;
+  }
+
+  .profile-content .bord_profil{
+    color: #ccc;
+  }
+  

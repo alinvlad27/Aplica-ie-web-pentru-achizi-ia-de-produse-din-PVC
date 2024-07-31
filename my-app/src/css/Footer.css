@@ -1,0 +1,53 @@
+.footer {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: #05070f;
+
+}
+
+.footer_text{
+    line-height: 30px;
+    color: rgb(194, 194, 194);
+    text-align: justify; /* Așează textul uniform între margini */
+} 
+
+.footer_quick_links ul li{
+    background: transparent;
+    margin-left: 30px
+}
+
+.footer_quick_links ul li a {
+    color: rgb(173, 173, 173);
+    text-decoration: none; /* Elimină sublinierea */
+}
+
+.footer_quick_links ul li a:hover {
+    text-decoration: underline; /* Adaugă subliniere la hover */
+    color: #fff; /* Schimbă culoarea la hover */
+}
+
+.quick_links_title{
+    margin-bottom: 42px;
+    color: aliceblue;
+    font-size: 1.1rem;
+    margin-left: 30px
+}
+
+.footer_contact li span,
+.footer_contact li p{
+    color: rgb(173, 173, 173);
+}
+
+.footer_contact li span {
+    font-size: 1.2rem;
+}
+
+.footer_contact li p {
+    font-size: .9rem;
+}
+
+.footer_copyright{
+    color: rgb(231, 231, 231);
+    font-size: .9rem;
+    margin-top: 40px;
+}

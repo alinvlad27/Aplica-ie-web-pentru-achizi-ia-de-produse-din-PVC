@@ -1,0 +1,46 @@
+.table tr td img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+td span {
+    cursor: pointer;
+}
+
+td, th {
+    color: black;
+}
+
+.cart-summaryy .cart-summaryy-heading {
+    border-bottom: 1px solid #000000;
+  }
+  
+  .cart-summaryy .cart-summaryy-price {
+    margin-top: 10px;
+  }
+
+  .buy_btn {
+    display: block;
+    width: 100%; /* Asigurăm că butoanele ocupă întreaga lățime */
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #000; /* Ajustăm culoarea de fundal */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.buy_btn:hover {
+    color: white; /* Ne asigurăm că textul rămâne vizibil și la hover */
+    background-color: #444; /* Ajustăm culoarea la hover */
+}
+
+.btn-buy {
+    display: flex;
+    flex-direction: column; /* Afișăm butoanele unul sub altul */
+    gap: 10px; /* Spațiu între butoane */
+}
+
+

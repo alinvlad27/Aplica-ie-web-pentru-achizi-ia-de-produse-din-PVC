@@ -1,0 +1,66 @@
+.success-msg {
+  background-color: rgb(70, 145, 70);
+  color: #ffffff;
+  padding: 7px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.container label{
+  color: black;
+}
+
+.cashout-cart{
+  padding: 20px;
+  background-color: #05070f;
+  color: white;
+  border-radius: 10px;
+}
+
+.cashout-item {
+  border-bottom: 1px solid rgb(145, 145, 145);
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+}
+
+.buy_btnn{
+        background-color: #ffffff;
+        color: #000000;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        outline: none;
+        transition: background-color 0.3s ease; /* adaugă o tranziție lină pentru culoarea butonului */
+}
+
+.buy_btnn a{
+  text-decoration: none;
+  color: #000;
+}
+
+.buy_btnn:hover{
+  background-color: #c41919;
+}
+
+.montaj_para{
+  color:#000000;
+  font-weight: 500;
+}
+
+.cuponr .cuponre{
+  color: #ff7979;
+}
+
+.error-msg{
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+.container .buy_btnn{
+    background-color: #000;
+    border-radius: 5px;
+}
